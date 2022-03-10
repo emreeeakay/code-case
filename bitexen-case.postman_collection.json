@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "1966089a-156c-402a-b40c-6ee1e366f185",
+		"name": "bitexen-case",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "monthly",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/monthly/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"monthly",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "yearsly",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/yearsly/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"yearsly",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "weekly",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/weekly/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"weekly",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "daily",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/daily/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"daily",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
